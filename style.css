@@ -3,8 +3,8 @@
   grid-template-columns: 250px 250px 250px;
   grid-template-rows: 200px 200px; /* высота рядов */
   grid-auto-rows: 150px; /*дефолтная высота ряда */
-  grid-column-gap: 20px; /* рстояние между колонками */
-  grid-row-gap: 20px; /* растояние между рядами */
+  grid-gap: 20px; /* расстояние между колонками и рядами */
+
 }
 
 .grid div {
