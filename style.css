@@ -15,7 +15,8 @@
 }
 
 .grid div:nth-child(1){
-  grid-column-start: 2;
+  grid-column-start: 1; /*позиция елемента */
+  grid-column-end: 9; /*растягивает 1 елемент на всю ширину блока */ 
 }
 
 .grid div:nth-child(odd) {
