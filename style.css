@@ -1,11 +1,7 @@
 .grid {
   display: grid;
-  grid-template-columns: minmax(150px,300px) 1fr 1fr;
-  grid-template-rows: 200px 200px; /* высота рядов */
-  grid-auto-rows: minmax(100px, auto); /*дефолтная высота ряда */
+  grid-template-columns: repeat(auto-fill,200px); 
   grid-gap: 20px; /* расстояние между колонками и рядами */
-  grid-auto-flow: column;
-
 }
 
 .grid div {
