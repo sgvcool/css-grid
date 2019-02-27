@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); 
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); 
   grid-gap: 20px; /* расстояние между колонками и рядами */
 }
 
@@ -12,6 +12,10 @@
 	color: #ffffff;
 	font-size: 18px;
 	font-family: roboto;
+}
+
+.grid div:nth-child(1){
+  grid-column-start: 2;
 }
 
 .grid div:nth-child(odd) {
