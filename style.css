@@ -30,7 +30,7 @@ footer {
 		grid-template-areas:
 			"header header"
 			"aside article"
-			". footer"
+			"aside footer"
 	}
 }
 
