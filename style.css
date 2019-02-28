@@ -1,8 +1,12 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); 
+  /* grid-template-columns: repeat(auto-fit,minmax(320px,1fr));  */
+  grid-template-columns: 1fr 2fr 1fr; 
+  grid-template-rows: minmax(120, auto);
+
   grid-gap: 20px; /* расстояние между колонками и рядами */
-  justify-items: start; /* выровнивание контента по горизонтали */
+  align-items: center; /* выровнивание контента по вертикали */ 
+  justify-items: center; /* выровнивание контента по горизонтали */ 
 }
 
 .grid div {
@@ -13,7 +17,7 @@
 	color: #ffffff;
 	font-size: 18px;
 	font-family: roboto;
-}
+} 
 
 .grid div:nth-child(1){
   grid-column: 1/-1; /* задаем ширину элемента на ширину всего контейнера*/
